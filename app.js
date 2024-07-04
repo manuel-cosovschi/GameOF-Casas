@@ -1,9 +1,9 @@
 const houses = [
-    { name: 'Stark', logo: 'img/house_stark.png' },
-    { name: 'Lannister', logo: 'img/house_lannister.png' },
-    { name: 'Targaryen', logo: 'img/house_targaryen.png' },
-    { name: 'Baratheon', logo: 'img/house_baratheon.png' },
-    { name: 'Greyjoy', logo: 'img/house_greyjoy.png' }
+    { name: 'Stark la tenes enorme', logo: 'img/house_stark.png' },
+    { name: 'Lannister sos scioli con tarasca', logo: 'img/house_lannister.png' },
+    { name: 'Targaryen piromano de mierda', logo: 'img/house_targaryen.png' },
+    { name: 'Baratheon, te paso el fernet?', logo: 'img/house_baratheon.png' },
+    { name: 'Greyjoy, no tenes pito JAJAJAJ fran dg dijeron?', logo: 'img/house_greyjoy.png' }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedHouseContainer.style.display = 'block';
     });
 });
-
 
 
 
