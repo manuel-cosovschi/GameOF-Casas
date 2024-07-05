@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectedHouseContainer = document.getElementById('selected-house');
     const backgroundAudio = document.getElementById('background-audio');
 
-    // Reproducir el audio de fondo
-    backgroundAudio.play();
-
     discoverHouseButton.addEventListener('click', () => {
+        // Reproducir el audio de fondo al hacer clic
+        backgroundAudio.play();
+
         const randomHouse = houses[Math.floor(Math.random() * houses.length)];
         selectedHouseContainer.innerHTML = `
             <p>You belong to House ${randomHouse.name}!</p>
@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedHouseContainer.style.display = 'block';
     });
 });
+
 
 
 
